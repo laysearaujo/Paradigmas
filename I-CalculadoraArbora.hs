@@ -15,4 +15,3 @@ main = do
     s <- getLine
     let result = evalTree (read s)
     print result
-    
